@@ -1,0 +1,401 @@
+/* Estilos Gerais */
+body {
+    color: #333333;
+}
+
+.container {
+    margin: 0 auto;
+    width: 50%;
+}
+
+/* Header (cabeçalho) */
+header {
+    position: relative;
+}
+
+.logoanas {
+    width: 20%;
+    height: 100px;
+}
+
+.sacola {
+    background-image: url(../img/sacola.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    font-size: 12px;
+    padding-right: 30px;
+    text-align: right;
+    width: 120px;
+    padding-top: 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* Menu de Opções (cabeçalho) */
+.menu-opcoes {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.menu-opcoes ul {
+    font-size: 15px;
+}
+
+.menu-opcoes li {
+    display: inline;
+    margin-right: 5px;
+}
+
+.menu-opcoes a {
+    color: #FF1493;
+    text-decoration: none;
+}
+
+.menu-opcoes a:hover {
+    color: #FF1493;
+    text-shadow: 3px 3px 5px #FF1493;
+}
+
+.destaque {
+    color: #FF1493;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.sidebar {
+    width: 270px;
+}
+
+.busca {
+    background-color: #DCDCDC;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.busca h2,
+.busca form {
+    margin: 10px;
+}
+
+.busca input[type="search"] {
+    width: 240px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+/* Menu de Departamentos */
+.menu-departamentos {
+    background-color: #DCDCDC;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding-bottom: 1px;
+}
+
+.menu-departamentos h2 {
+    margin: 10px;
+}
+
+.menu-departamentos ul {
+    list-style: none;
+    padding-left: 0;
+} 
+
+.menu-departamentos li { 
+    background-color: white;
+    margin-bottom: 1px;
+    padding: 5px 10px;
+}
+
+.menu-departamentos a {
+    color: #FF1493;
+    text-decoration: none;
+}
+
+.menu-departamentos a:hover {
+    color: #FF1493;
+    text-decoration: underline;
+}
+
+.menu-departamentos li ul	{
+    display:	none;
+}
+
+.menu-departamentos li:hover ul	{
+    display:	block;
+}
+
+.menu-departamentos ul ul il {
+    background-color: #FF1493;
+
+}
+
+/* Banner de Destaque */
+.banner-destaque1 {
+    flex-grow: 1;
+    margin-left: 1px; 
+}
+
+.banner-destaque1 img {
+    width: 103%;
+    height: 100%;
+}
+
+/* Estilos para os Painéis */
+.paineis {
+display: flex; 
+gap: 30px; 
+margin-top: 30px;
+}
+
+.painel {
+background-color: #DCDCDC;
+padding: 10px;
+width: 50%;
+}
+
+.painel h2 {
+font-size: 24px;
+font-weight: bold;
+text-transform: uppercase;
+color: #FF1493;
+text-shadow: 3px 3px 5px #FF1493;
+margin-bottom: 10px;
+}
+
+.painel ol {
+list-style: none;
+margin: 0;
+padding: 0;
+display: grid; 
+grid-template-columns: repeat(3, 1fr);
+gap: 10px;
+}
+
+.painel li {
+background-color: #fff;
+box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+padding: 10px;
+text-align: center;
+}
+
+.painel li a {
+text-decoration: none;
+color: #333;
+}
+
+.painel li figure {
+margin: 0;
+}
+
+.painel li img {
+max-width: 100%;
+height: auto;
+display: block;
+margin-bottom: 5px;
+}
+
+.painel li:hover {
+transform: scale(1.05);
+transition: transform 0.3s ease;
+box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3);
+z-index: 1;
+}
+
+.painel.novidades,
+.painel.mais-vendidos {
+border: 2px solid #FF1493;
+}
+
+footer {
+ background-image: url(../img/fundo-rodape.png);
+ clear: both;
+ padding: 15px 0;
+ margin-top: 12px;
+}
+
+footer .container{
+ position: relative;
+}
+
+footer img {
+ width: 100px;
+ height: 75px;
+ 
+}
+
+.social a {
+ height: 32px;
+ width: 32px;
+ display: block;
+ text-indent: -9999px;
+}
+
+.social a[href*="youtube.com"] {
+ background-image: url(../img/youtube.png);
+}
+  
+.social a[href*="x.com"] {
+ background-image: url(../img/x.png);
+}
+
+.social a[href*="instagram.com"] {
+ background-image: url(../img/instagram.png);
+}
+
+.social {
+ position: absolute;
+ top: 12px;
+ right: 0px;
+}
+
+.social li{
+ float: left;
+ margin-left: 25px;
+ list-style: none;
+}
+
+.painel	{
+border-radius: 4px;
+box-shadow: 1px 1px 4px #999;
+}
+
+.painel h2	{
+text-shadow: 3px 3px 2px #FFF;
+}
+
+.painel	{
+box-shadow:	inset	1px 1px 4px #999;
+}
+
+.busca	{
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;
+}
+
+.painel h2	{
+text-shadow: 3px 3px 2px	rgba(255,255,255,0.8);
+}
+
+.novidades	{
+background:	linear-gradient(#ffcada,	#ff64a5);
+}
+
+.mais-vendidos	{
+background:	linear-gradient(#ff64a5,	#ffcada);
+}
+
+.painel li:hover	{
+    box-shadow: 0 0 5px #333;
+    transition:	box-shadow	0.7s;
+    background-color:	rgba(255,255,255,0.8);
+    transform:	scale(1.2) rotate(-5deg);
+    transition: 0.2s ease-in;
+}
+
+.painel li:nth-child(2n):hover	{
+    transform:	scale(1.2)	rotate(5deg);
+}
+
+.painel li:hover	{
+    transition: 0.2s ease-in;
+}
+
+@media	(max-width:	939px)	{
+    
+    .container	{
+        width: 96%;
+}
+
+header h1	{
+    text-align:	center;
+}
+header h1 img	{
+    max-width: none;
+}
+.sacola	{
+    display:	none;
+}
+.menu-opcoes	{
+    position:	static;
+    text-align:	center;
+}
+
+.menu-opcoes ul li	{
+    display:	inline-block;
+    margin: 5px;
+}
+
+.busca,
+.menu-departamentos,
+.banner-destaque img	{
+		margin-right: 0;
+		width: 100%;
+	}
+
+.painel	{
+width:	auto;
+}
+
+.painel li	{
+    width: 30%;
+}
+.painel img	{
+    width: 100%;
+}
+}
+.destaque{
+    position: relative;
+}
+
+.pause,
+.play{
+    display: block; 
+    position: absolute;
+    right: 15px; 
+    top: 15px;
+}   
+
+.pause{
+    border-Left: 10px  solid rgb(255, 182, 219);
+    border-right: 10px solid rgb(255, 182, 219);
+    height: 30px; 
+    width: 5px;
+}
+
+.play {
+    border-Left: 25px solid rgb(255, 182, 219); 
+    border-bottom: 15px solid transparent; 
+    border-top: 15px solid transparent;
+}
+
+.painel li:nth-child(n+7) {
+    display: none;
+ }
+ .painel-aberto li:nth-child(n+7) {
+    display: inline-block;
+ }
+ .painel button {
+    /* posicionamento */
+    float: right;
+    margin-right: 10px;
+    padding: 10px;
+    /* estilo */
+    background-color: #333;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px rgba(30, 30, 30, 0.5);
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    text-shadow: 1px 0 1px black;
+    /* animação */
+    transition: 0.3s;
+ }
+ .painel button:hover {
+    background-color: #393939;
+    box-shadow: 1px 0 20px rgba(200, 200, 120, 0.9);
+ }

@@ -1,0 +1,224 @@
+.container {
+	margin: 0 auto;
+	width: 50%;
+}
+
+header {
+	position: relative;
+	background-color: #ffffff;
+	border-bottom: 3px solid #FF1493;
+	box-shadow: 0 4px 12px -4px #FF1493;
+  }
+  
+  
+  .logoanas{
+	width: 20%;
+	height: 90px;
+  }
+  
+  
+  .sacola {
+	background-image: url(../img/sacola.png);
+	background-repeat: no-repeat;
+	background-position: top right;
+	font-size: 12px;
+	padding-right: 35px;
+	text-align: right;
+	width: 120px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+  }
+  
+  
+  .menu-opcoes {
+	position: absolute;
+	bottom: 0;
+	right: 5px;
+  }
+  
+  .menu-opcoes ul {
+	font-size: 15px;
+  }
+  
+  .menu-opcoes a {
+	color: #ffffff;
+	background-color: #FF1493;
+	border-radius: 8px;
+	text-decoration: none;
+	padding: 3px 3px 3px 3px;
+	box-shadow: #FF1493 1px 1px 2px;
+  }
+  
+  .menu-opcoes a:hover {
+	color: #ffffff;
+	text-shadow: 3px 3px 5px #FF1493;
+	transition: color 0.3s ease, text-shadow 0.3s ease;
+	background-color: #FF1493;
+	border-radius: 12px;
+	padding: 5px 5px 5px 5px;
+  }
+  
+  
+  ul li {
+	display: inline;
+	margin-right: 5px;
+	font-family: "Lucida sans unicode", "Lucida grande", sans-serif;
+  }
+  
+  p::first-letter {
+	  font-weight: bold;
+  }
+  
+  h1 + p {
+	  text-indent: 0;
+  }
+  
+  p::first-line {
+	  font-variant: small-caps;
+  }
+  
+
+.cores label:after	{
+  position:	static;
+  float:	left;
+}
+
+.cores label img	{
+  max-width: 35%;
+  max-height: 100%;
+}
+
+.produto	{
+  font-size: 1.2em;
+}
+
+
+.cores label::after	{
+  margin-right: 10px;
+}
+
+.tamanhos	output	{
+display:	inline-block;
+height:	44px;
+width:	44px;
+
+.line-height: 44px; 
+text-align:	center;
+border:	3px	solid	#666;
+border-radius:	50%;
+color:	#555;
+}
+
+.detalhes	{
+  padding: 2em 0;
+}
+
+.detalhes h2	{
+  font-size: 1.5em;
+  line-height: 2;
+}
+
+.detalhes p	{
+  margin: 1em 0;
+  font-size: 1em;
+  line-height: 1.5;
+  max-width: 36em;
+}
+
+@media	(min-width:	500px)	{
+  .detalhes	{
+          font-size: 1.2em;
+  }
+}
+
+table	{
+					border-spacing: 0.2em;
+					border-collapse:	separate;
+	}
+
+thead	{
+					background-color: rgb(255, 155, 217);
+	}
+
+thead th	{
+					font-weight:	bold;
+					padding: 0.3em 1em;
+					text-align:	center;
+	}
+
+td	{
+					padding: 0.3em;
+	}
+
+  tr:nth-child(1n)	{
+    background-color: rgb(255, 214, 239);
+}
+
+tr:nth-child(2n)	{
+					background-color: rgb(255, 214, 239);
+	}
+
+td:first-child	{
+					font-style:	italic;
+}
+
+.produto-back	{
+					background-color: #ff1d8d;
+					margin-top: 1em;
+					border-top: 2px	solid	#ff1d8d;
+	}
+
+.cores label img	{
+					border: 2px	solid	#ff1d8d;
+	}
+
+	footer {
+		background-image: url(../img/fundo-rodape.png);
+		clear: both;
+		padding: 15px 0;
+		margin-top: 12px;
+	   }
+	   
+	   footer .container{
+		position: relative;
+	   }
+	   
+	   footer img {
+		width: 100px;
+		height: 75px;
+		
+	   }
+	   
+	   .social a {
+		height: 32px;
+		width: 32px;
+		display: block;
+		text-indent: -9999px;
+	   }
+	   
+	   .social a[href*="youtube.com"] {
+		background-image: url(../img/youtube.png);
+	   }
+		 
+	   .social a[href*="x.com"] {
+		background-image: url(../img/x.png);
+	   }
+	   
+	   .social a[href*="instagram.com"] {
+		background-image: url(../img/instagram.png);
+	   }
+	   
+	   .social {
+		position: absolute;
+		top: 12px;
+		right: 0px;
+	   }
+	   
+	   .social li{
+		float: left;
+		margin-left: 25px;
+		list-style: none;
+	   }
+
+
